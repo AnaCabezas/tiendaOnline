@@ -141,6 +141,6 @@ git remote add origin //url copiado desde githbu el .git
 git remote -v
 git push -u origin master
 
-
+Prueba de pull
 
 
