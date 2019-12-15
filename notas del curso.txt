@@ -125,3 +125,22 @@ deber
 funciones de arreglos
 arrayfunctions javascripts
 
+
+
+
+
+
+comandos git
+git add .
+git commit -m "mensaje"
+git reset --hard
+git add nombredearchivo //luego commit
+git log
+//creo un repositorio en github
+git remote add origin //url copiado desde githbu el .git
+git remote -v
+git push -u origin master
+
+
+
+
