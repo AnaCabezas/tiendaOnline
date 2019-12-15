@@ -1,0 +1,127 @@
+/*variables*/
+let user = 25;
+
+
+
+visual studio code
+abrir carpeta creada
+new file
+index.html
+html 2.5
+crtl s
+index.js
+reveal explorer
+open with
+
+crtl / --> comentar todo
+
+tipo de datos en js
+number
+string
+booleano
+
+
+    <h1>Titulo</h1>
+    <h1 class="h1">Titulo2</h1>
+    <h2 class="h1" >Titulo</h2>
+    <h3 id="h1">Titulo</h4>
+        <p class="h1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ad rerum, blanditiis accusamus id pariatur in nostrum. Necessitatibus atque alias libero enim vitae natus cum totam dolorum esse, soluta numquam?</p>
+    <div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+la pantalla tiene 12 espacios, si pongo solo col va a ser automatica.
+
+
+comandos basicos js
+/*variables*/
+/*console.log ("Hola Mundo");
+let user ="Ana";
+console.log (user);
+user = "John";
+console.log (user);
+user = "Thian";
+console.log (user);*/
+
+/*constantes*/
+//const userNew = 1000;
+//console.log (userNew);
+//console.log(user+" "+userNew)
+
+
+
+/*operadores logicos*/
+let permiso = true;
+if (permiso) {
+	console.log("Bienvenido");
+}else{
+	console.log("Restringido");
+}
+
+//&& (and) || (or) !(not)
+
+/*operadores matematicos*/
+/*let contador = 1;
+let suma = contador + 1;
+let resta = contador - 1;
+let mult = contador *6;
+let div = contador / 2;
+let mod = contador % 6;
+console.log(suma);
+console.log(resta);
+console.log(mult);
+console.log(div);
+console.log(mod);*/
+
+/*contador*/
+//let contador= 0;
+//contador++;
+
+/*acumulador*/
+/*let acum = 0;
+acum +=8;
+acum *=8;
+acum /=8;
+acum -=8;
+console.log(acum);*/
+
+/*bucle*/
+/*for(let i = 0;i < 5; i++) {
+console.log(i);
+}
+
+let i = 0;
+while(i < 5) {
+	console.log(i);
+	i++;
+}
+
+let i = 0;
+ do{
+	console.log(i);
+	i++;
+}while(i < 5);*/
+
+
+/*funciones*/
+let numero1 = 5;
+let numero2= 10;
+function sumar() {
+	console.log(numero1 + numero2);
+}
+
+sumar();
+function sumarconparametros(x,y) {
+	console.log(x + y);
+}
+sumarconparametros(20,7);
+
+deber
+funciones de arreglos
+arrayfunctions javascripts
+
