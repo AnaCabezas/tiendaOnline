@@ -46,7 +46,8 @@ async function obtenerYdibujarProductos() {
     productoCarta += `
 		<div class="col-sm-4 colg-lg-4">
 			<div class="card">
-				<img
+        <img
+        class= "card-img-top"
 					src="${productos[i].imagen}"
 					alt="..."
 				/>
@@ -79,7 +80,6 @@ async function obtenerYdibujarProductos() {
 obtenerYdibujarProductos();
 
 async function agregarProducto() {
-  debugger;
   let nombre = document.getElementById("producto").value;
   let imagen = document.getElementById("imagen").value;
   let precio = document.getElementById("precio").value;
